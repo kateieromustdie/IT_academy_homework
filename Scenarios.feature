@@ -17,3 +17,8 @@ Feature: ExploreAllStocksScreen
           | image   |   Netflix         |   NFLX      | -1.88%            |
           | image   |   Beyond Meat     |   BYND      | -0.88%            |
           | image   |   Tesla           |   TSLA      | +0.08%            |
+
+    @manual @exploreAllStocksScreen002
+    Scenario: don't see inactive instruments
+      When I open the "Explore" screen
+      Then I don't see inactive instruments
