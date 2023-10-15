@@ -1,3 +1,6 @@
-let array1 = ['1', '2', '3', '4', '5', '6'];
-let reversed = array1.reverse();
-console.log(reversed);
+let reversedFunc = (array) => {
+    let reversed = array.reverse();
+};
+let arr = [1, 3, 5, 7];
+reversedFunc(arr);
+console.log(arr);
