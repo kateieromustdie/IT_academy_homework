@@ -1,4 +1,7 @@
-let array2 = [3, 67, 15, 8792, 0, 23486, 2];
-
-let maxNumber = Math.max(...array2);
-console.log(maxNumber);
+let findBiggest = (arr) => {
+    let big = Math.max(...arr);
+    return big;
+};
+let numbers = [1, 6, 9898, 67, 0];
+let biggest = findBiggest(numbers);
+console.log(biggest);
