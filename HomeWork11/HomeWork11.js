@@ -57,7 +57,7 @@ salad.addVegetable(new VegetableDecorator(cucumber));
 salad.addVegetable(new VegetableDecorator(tomato));
 salad.addVegetable(new VegetableDecorator(pepper));
 
-console.log(salad.calculateCalories()); // 44
+console.log(salad.calculateCalories()); // 74
 
 salad.sortVegetables('calories');
 console.log(salad.vegetables); // [Pepper, Cucumber, Tomato]
